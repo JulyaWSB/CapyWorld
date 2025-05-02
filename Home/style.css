@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --coffeBrown: #704214;
+  --lightBrown: #aa7444;
+  --headerColor: #dd985c;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: var(--headerColor);
+  color: var(--coffeBrown);
+}
+
+.listNavegation {
+  display: flex;
+  list-style: none;
+  margin-top: 10px;
+  gap: 12px;
+}
+
+.aMenu {
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--coffeBrown);
+  border: 1px solid var(--white);
+  padding: 10px 15px;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.aMenu:hover {
+  background-color: var(--lightBrown);
+}
+
+.flex {
+  display: flex;
+}
+
+.gradient {
+  display: flex;
+}
+
+.welcomeHeaderGradient {
+  background: linear-gradient(
+    to top,
+    var(--lightBrown),
+    var(--white),
+    var(--headerColor)
+  );
+  width: 30%;
+  height: 40px;
+}
+
+.welcome {
+  background-color: var(--lightBrown);
+  width: 30%;
+  height: 300px;
+  color: var(--white);
+  font-size: 35px;
+}
+
+.welcome .bemVindo {
+  font-family: "Fira Sans", sans-serif;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.welcome .capyLover {
+  font-family: "Fira Sans", sans-serif;
+  margin-left: 50px;
+  padding-right: 20px;
+}
+
+.textoApresentacao {
+  background-color: var(--coffeBrown);
+  color: var(--white);
+  display: flex;
+  width: 70%;
+}
+
+.textoApresentacaoHeaderGradient {
+  background: linear-gradient(
+    to top,
+    var(--coffeBrown),
+    var(--white),
+    var(--headerColor)
+  );
+  width: 70%;
+  height: 40px;
+}
+
+.contextoApresentacao {
+  font-family: "Fira Sans", sans-serif;
+  text-align: justify;
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+#capyHat {
+  width: 200px;
+  height: 200px;
+  align-self: end;
+}
+
+#rio {
+  height: 200px;
+}
+
+.welcomeToRioGradient {
+  background: linear-gradient(to top, var(--white), var(--lightBrown));
+  width: 30%;
+  height: 20px;
+}
+
+.textoApresentacaoToRioGradient {
+  background: linear-gradient(to top, var(--white), var(--coffeBrown));
+  width: 70%;
+  height: 20px;
+}
+
+.rio {
+  display: flex;
+  background-image: url("/Assets/aguaBackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 1px dashed var(--black);
+}
+
+#capyFloating {
+  width: 150px;
+  height: 150px;
+  align-self: center;
+}
+
+.frase {
+  align-self: center;
+  color: var(--white);
+  font-family: "Fira Sans", sans-serif;
+  text-align: justify;
+  padding: 20px;
+}
+
+.titulo {
+  text-align: center;
+  padding: 20px;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 19px;
+  color: var(--coffeBrown);
+  background-color: var(--headerColor);
+}
+
+.historiaTexto {
+  width: 70%;
+  color: var(--white);
+  background-color: var(--coffeBrown);
+  text-align: justify;
+  padding: 20px;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 18px;
+}
+
+.historiaTexto h1 {
+  margin-top: 40px;
+}
+
+.questao {
+  background-color: var(--lightBrown);
+  width: 30%;
+  height: 300px;
+}
+
+#capivaraNacionalista {
+  width: 100%;
+  height: 300px;
+}
+
+.historiaToHistoriaTextoGradient {
+  background: linear-gradient(
+    to top,
+    var(--coffeBrown),
+    var(--white),
+    var(--headerColor)
+  );
+  width: 70%;
+  height: 40px;
+}
+
+.historiaToQuestaoGradient {
+  background: linear-gradient(
+    to top,
+    #009c3b,
+    var(--white),
+    var(--headerColor)
+  );
+  width: 30%;
+  height: 40px;
+}
+
+.historiaTextoToCuriosidadesGradient {
+  background: linear-gradient(
+    to top,
+    var(--headerColor),
+    var(--white),
+    var(--coffeBrown)
+  );
+  width: 70%;
+  height: 40px;
+}
+
+.questaoToCuriosidadesGradient {
+  background: linear-gradient(
+    to top,
+    var(--headerColor),
+    var(--white),
+    #00d050
+  );
+  width: 17%;
+  height: 40px;
+}
+
+.questaocapibaraToCuriosidadesGradient {
+  background: linear-gradient(
+    to top,
+    var(--headerColor),
+    var(--white),
+    #865f3d
+  );
+  width: 13%;
+  height: 40px;
+}
+
+.donut {
+  width: 30%;
+  height: 300px;
+}
+
+#capyDonut {
+  height: 300px;
+  width: 100%;
+}
+
+.curiosidades {
+  width: 70%;
+  background-color: var(--coffeBrown);
+  color: var(--white);
+  font-family: "Fira Sans", sans-serif;
+  font-size: 15px;
+  padding: 30px;
+  line-height: 27px;
+  text-align: justify;
+}
+
+.curiosidadesToDonutGradient {
+  background: linear-gradient(
+    to top,
+    #877575,
+    var(--white),
+    var(--headerColor)
+  );
+  width: 30%;
+  height: 40px;
+}
+
+.curiosidadesToCuriosidadesGradient {
+  background: linear-gradient(
+    to top,
+    var(--coffeBrown),
+    var(--white),
+    var(--headerColor)
+  );
+  width: 70%;
+  height: 40px;
+}
+
+.textoLeis {
+  width: 70%;
+  color: var(--white);
+  background-color: var(--coffeBrown);
+  text-align: justify;
+  padding: 20px;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 18px;
+}
+
+.textoLeis p {
+  margin-top: 10px;
+}
+
+.capivaraPolicial {
+  width: 30%;
+  height: 300px;
+}
+
+#capyCop {
+  width: 100%;
+  height: 300px;
+}
+
+.curiosidadesToLeisGradient {
+  background: linear-gradient(
+    to top,
+    var(--headerColor),
+    var(--white),
+    #c5a7a7
+  );
+  width: 30%;
+  height: 40px;
+}
+
+.curiosidadesListToLeisGradient {
+  background: linear-gradient(
+    to top,
+    var(--headerColor),
+    var(--white),
+    var(--coffeBrown)
+  );
+  width: 70%;
+  height: 40px;
+}
+
+.protecaoToLeisGradient {
+  background: linear-gradient(
+    to top,
+    var(--coffeBrown),
+    var(--white),
+    var(--headerColor)
+  );
+  width: 70%;
+  height: 40px;
+}
+
+.protecaoToCopGradient {
+  background: linear-gradient(
+    to top,
+    #bebebe,
+    var(--white),
+    var(--headerColor)
+  );
+  width: 30%;
+  height: 40px;
+}
+
+.leisToFooterGradient {
+  background: linear-gradient(
+    to top,
+    var(--headerColor),
+    var(--white),
+    var(--coffeBrown)
+  );
+  width: 70%;
+  height: 40px;
+}
+
+.copToFooterGradient {
+  background: linear-gradient(
+    to top,
+    var(--headerColor),
+    var(--white),
+    var(--coffeBrown)
+  );
+  width: 70%;
+  height: 40px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: var(--headerColor);
+  color: var(--coffeBrown);
+}
